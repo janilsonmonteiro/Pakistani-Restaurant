@@ -1,0 +1,105 @@
+{
+  "restaurant": {
+    "name": "Pakistani Restaurant - مطعم باكستاني",
+    "address": "VJP5+JP2, King Abdul Aziz Branch Rd, Riyadh, Riyadh Province, Saudi Arabia",
+    "phone": "+966 51 137 4375",
+    "hours": "Open daily: 12:00 PM - 12:00 AM",
+    "rating": "⭐⭐⭐⭐⭐/5 (25 Google reviews)",
+    "services": [
+      "Dine-in",
+      "Takeaway",
+      "Delivery",
+      "Vegetarian options"
+    ],
+    "coordinates": {
+      "lat": 23.4355648,
+      "lng": 44.110674
+    },
+    "description": "Authentic Pakistani restaurant in Riyadh offering traditional dishes such as biryani, karahi, and kebabs. Family-friendly atmosphere, affordable prices (SAR 1–20 per person). Credit cards accepted.",
+    "images": [
+      "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/24811614/2023_06_21_Biriyani_Kabob_House_016.jpg?quality=90&strip=all&crop=0.012500000000003,0,99.975,100",
+      "https://www.tastingtable.com/img/gallery/20-traditional-pakistani-dishes-everyone-needs-to-try-once/intro-1674666910.jpg",
+      "https://deraeats.com/wp-content/uploads/2024/09/5-1024x683.jpg",
+      "https://static.wixstatic.com/media/11b26c_dc27c718bf72463e817ef414c5173750~mv2.jpeg/v1/fill/w_980,h_535,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11b26c_dc27c718bf72463e817ef414c5173750~mv2.jpeg"
+    ]
+  },
+  "menu": [
+    {
+      "category": "Main Courses",
+      "items": [
+        {
+          "name": "Chicken Biryani",
+          "description": "Basmati rice cooked with seasoned chicken, aromatic spices, and crispy fried onions.",
+          "price": 17,
+          "currency": "SAR",
+          "image": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/24811614/2023_06_21_Biriyani_Kabob_House_016.jpg?quality=90&strip=all&crop=0.012500000000003,0,99.975,100"
+        },
+        {
+          "name": "Mutton Karahi",
+          "description": "Tender lamb cooked in a traditional karahi pan with tomatoes, ginger, and green chilies.",
+          "price": 28,
+          "currency": "SAR",
+          "image": "https://static.wixstatic.com/media/11b26c_dc27c718bf72463e817ef414c5173750~mv2.jpeg/v1/fill/w_980,h_535,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11b26c_dc27c718bf72463e817ef414c5173750~mv2.jpeg"
+        },
+        {
+          "name": "Chicken Karahi",
+          "description": "Chicken cooked in a traditional karahi pan with authentic Pakistani spices.",
+          "price": 18,
+          "currency": "SAR",
+          "image": "https://deraeats.com/wp-content/uploads/2024/09/5-1024x683.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Charcoal Grill",
+      "items": [
+        {
+          "name": "Seekh Kebab",
+          "description": "Minced meat kebabs grilled over charcoal with traditional spices.",
+          "price": 15,
+          "currency": "SAR",
+          "image": "https://www.tastingtable.com/img/gallery/20-traditional-pakistani-dishes-everyone-needs-to-try-once/intro-1674666910.jpg"
+        },
+        {
+          "name": "Grilled Chicken",
+          "description": "Juicy grilled chicken marinated with flavorful spices.",
+          "price": 27,
+          "currency": "SAR",
+          "image": "https://platform.la.eater.com/wp-content/uploads/sites/26/chorus/uploads/chorus_asset/file/24811614/2023_06_21_Biriyani_Kabob_House_016.jpg?quality=90&strip=all&crop=0.012500000000003,0,99.975,100"
+        }
+      ]
+    },
+    {
+      "category": "Vegetarian",
+      "items": [
+        {
+          "name": "Daal (Lentilhas)",
+          "description": "Slow-cooked lentils prepared with butter and caramelized onions.",
+          "price": 10,
+          "currency": "SAR",
+          "image": "https://www.tastingtable.com/img/gallery/20-traditional-pakistani-dishes-everyone-needs-to-try-once/intro-1674666910.jpg"
+        },
+        {
+          "name": "Mixed Vegetables",
+          "description": "Fresh vegetables cooked with traditional spices.",
+          "price": 10,
+          "currency": "SAR",
+          "image": "https://static.wixstatic.com/media/11b26c_dc27c718bf72463e817ef414c5173750~mv2.jpeg/v1/fill/w_980,h_535,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11b26c_dc27c718bf72463e817ef414c5173750~mv2.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "Drinks & Bread",
+      "items": [
+        {
+          "name": "Naan Bread",
+          "description": "Traditional bread baked in a clay tandoor oven.",
+          "price": 3,
+          "currency": "SAR",
+          "image": "https://deraeats.com/wp-content/uploads/2024/09/5-1024x683.jpg"
+        }
+      ]
+    }
+  ],
+  "reviewsSummary": "Mixed reviews: Customers praise the authentic flavors and friendly service, though some mention air conditioning issues. Recommended for takeaway and casual dining."
+}

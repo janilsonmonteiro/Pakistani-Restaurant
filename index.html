@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pakistani Restaurant - مطعم باكستاني</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#4CAF50">
+  <link rel="icon" href="icon.png"> <!-- Adicione um ícone real -->
+  <!-- Basic SEO -->
+<title>Pakistani Restaurant | Authentic Flavors in Riyadh</title>
+<meta name="description" content="Authentic Pakistani restaurant in Riyadh offering traditional biryani, karahi, kebabs and more. Dine-in, takeaway and delivery available.">
+<meta name="keywords" content="Pakistani Restaurant Riyadh, Biryani Riyadh, Karahi Saudi Arabia, Kebabs Riyadh">
+<meta name="author" content="Pakistani Restaurant">
+
+<!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pakistani Restaurant - Authentic Pakistani Cuisine in Riyadh">
+<meta property="og:description" content="Experience traditional Pakistani flavors in Riyadh. Family-friendly atmosphere, affordable prices and authentic recipes.">
+<meta property="og:image" content="icon-png">
+<meta property="og:site_name" content="Pakistani Restaurant">
+
+<!-- Image Size Recommendation -->
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pakistani Restaurant in Riyadh">
+<meta name="twitter:description" content="Authentic biryani, karahi and grilled specialties. Dine-in or takeaway.">
+<meta name="twitter:image" content="icon.png">
+</head>
+<body>
+  <header>
+    <h1 id="restaurant-name"></h1>
+    <button id="translate-btn">Translate Website</button>
+    <div id="google_translate_element"></div>
+  </header>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p id="description"></p>
+    <div class="presentation-container"> 
+
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>Menu</h2>
+    <div id="menu-items"></div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <div>
+        <p id="address"></p>
+        <p id="phone"></p>
+        <p id="hours"></p>
+        <p id="rating"></p>
+        <p id="services"></p>
+        <p id="reviews"></p>
+
+
+    </div>
+    <div id="map"></div> <!-- Para mapa, use Google Maps embed -->
+  </section>
+
+  <section id="reservation">
+    <h2>Reserve a Table</h2>
+    <form id="reservation-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="date">Date:</label>
+      <input type="date" id="date" required>
+      <label for="time">Time:</label>
+      <input type="time" id="time" required>
+      <label for="people">Number of People:</label>
+      <input type="number" id="people" min="1" required>
+      <button type="submit">Reserve</button>
+    </form>
+  </section>
+
+  <!-- Botão fixo de reserva -->
+<a href="#reservation" class="fixed-reserve-btn" title="Reserve agora!">
+  <span>Reserve your table</span>
+  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <path d="M5 13l4 4L19 7" />
+  </svg>
+</a>
+
+  <footer>
+    <p>&copy; 2026 Pakistani Restaurant</p>
+  </footer>
+
+  
+
+  <script src="app.js"></script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'pt'}, 'google_translate_element');
+    }
+  </script>
+</body>
+</html>
